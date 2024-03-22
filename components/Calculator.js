@@ -15,6 +15,7 @@ const Calculator = () => {
     setResult('');
   };
 
+  
   const calculateResult = () => {
     try {
       const res = eval(expression);
